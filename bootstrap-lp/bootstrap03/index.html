@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap03</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <header class="vh-100 mb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark position-absolute w-100">
+      <a class="navbar-brand text-white" href="#"><span class="h2">スニーカー店</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-4">
+            <a class="nav-link text-white" href="#">ウェブサイトビルダー</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link text-white" href="#">デモページ</a>
+          </li>
+          <li class="nav-item dropdown mx-4">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              その他テンプレート
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item mx-1 d-flex align-items-center">
+            <a class="btn btn-outline-light rounded-circle d-flex" href=""><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item mx-1 d-flex align-items-center">
+            <a class="btn btn-outline-light rounded-circle d-flex justify-content-center" href=""><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nav-item mx-1 d-flex align-items-center">
+            <a class="btn btn-outline-light rounded-circle d-flex justify-content-center" href=""><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="h-100 d-flex align-items-center">
+      <div class="container">
+         <div class="row align-items-center ">
+           <div class="left-conatiner col-lg-6 col-12">
+                 <img class="w-100" src="../bootstrap03/images/Top_image.jpg">
+           </div>
+           <div class="right-container col-lg-6 col-12 p-5 text-white">
+                 <p>レスポンシブHTMLテーマ</p>
+                 <h1 class="font-weight-bold mb-4">新しいスポーツコレクションは既に販売中</h1>
+                 <a class="btn btn-light rounded-pill" href="">ショッピングを始める</a>
+           </div>
+         </div>
+      </div>
+    </div>
+    <div class="row m-0">
+          <div class="col-4 bg-success"></div>
+          <div class="col-8 bg-info"></div>
+    </div>
+  </header>
+  <main>
+    <div class="container mb-5">
+      <h2 class="mb-4">ベストセラー</h2>
+      <div class="card-container mx-5">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="card p-3 border-0">
+            <div class="img-card">
+              <img class="w-100" src="../bootstrap03/images/Top_image.jpg">
+            </div>
+            <div class="text-card px-4 pt-3 bg-light">
+              <h3>ブラウングラス</h3>
+              <p>$63</p>
+            </div>
+          </div>
+          <div class="card p-3 border-0">
+            <div class="img-card">
+              <img class="w-100" src="../bootstrap03/images/shoes➀.jpg">
+            </div>
+            <div class="text-card px-4 pt-3 bg-light">
+              <h3>メンズスニーカー</h3>
+              <p>$88</p>
+            </div>
+          </div>
+          <div class="card p-3 border-0">
+            <div class="img-card">
+              <img class="w-100" src="../bootstrap03/images/shoes②.jpg">
+            </div>
+            <div class="text-card px-4 pt-3 bg-light">
+              <h3>ブルーバックパック</h3>
+              <div class="text">
+                <p class="float-left">$12</p>
+                <del class="text-muted ml-3">$24</del>
+              </div>
+            </div>
+            <div class="card-img-overlay">
+              <p class="d-inline-block px-3 py-1 m-3 bg-info rounded-pill text-white">セール</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid mb-5">
+      <div class="container d-flex align-items-center">
+        <div class="text-container text-center px-5">
+          <h2 class="mb-4">新しいコレクションからスニーカーを購入すると、自動的にラッフル賞のメンバーになります</h2>
+          <p class="mb-4">勝つチャンスを逃さないでください！！！</p>
+          <div class="video-link">
+            <a class="btn btn-outline-primary rounded-circle mx-auto d-flex justify-content-center align-items-center mb-2" href=""><i class="fas fa-play-circle display-4"></i></a>
+            <a href=""><p>詳細についてはビデオをご覧ください</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5">
+      <h2>新しいコレクション</h2>
+      <div class="img-container">
+        <div class="row w-100 m-0">
+          <div class="col-12 col-md-6 p-3">
+            <img class="w-100 position-relative" src="../bootstrap03/images/Top_image.jpg">
+            <h3 class="text-white">スポーツコレクション</h3>
+          </div>
+          <div class="col-12 col-md-6 p-3">
+            <img class="w-100 position-relative" src="../bootstrap03/images/shoes➀.jpg">
+            <h3 class="text-white">カジュアルコレクション</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-info py-5 mb-5">
+      <div class="text-container col-lg-6 col-9 mx-auto text-center text-white">
+        <h2>スニーカーを2足買うと3足目が30％OFF!!</h2>
+        <p class="mb-4">スニーカーストアのレスポンシブHTMLテーマ</p>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+          <div class="text-row px-3">
+            <p class="border-bottom border-primary pb-2 display-4 font-weight-bold mb-1">00</p>
+            <p>日</p>
+          </div>
+          <div class="text-row px-3">
+            <p class="border-bottom border-primary pb-2 display-4 font-weight-bold mb-1">00</p>
+            <p>時間</p>
+          </div>
+          <div class="text-row px-3">
+            <p class="border-bottom border-primary pb-2 display-4 font-weight-bold mb-1">00</p>
+            <p>分</p>
+          </div>
+          <div class="text-row px-3">
+            <p class="border-bottom border-primary pb-2 display-4 font-weight-bold mb-1">00</p>
+            <p>秒</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5">
+      <div class="text-container text-center">
+        <p class="text-muted">下の表を使用してサイズを確認してください</p>
+        <h2>サイズがわからない？</h2>
+      </div>
+    </div>
+
+    <div class="table-container mb-5">
+      <div class="top-table background">
+        <div class="container py-4">
+          <h3 class="mb-5">メンズスニーカー</h3>
+          <table class="table table-borderless">
+            <thead>
+              <tr>
+                <th scope="col">CM</th>
+                <th scope="col">23,5</th>
+                <th scope="col">24,4</th>
+                <th scope="col">25,4</th>
+                <th scope="col">25</th>
+                <th scope="col">27日</th>
+                <th scope="col">27,9</th>
+                <th scope="col">28,6</th>
+                <th scope="col">29,4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">EU</th>
+                <td>39</td>
+                <td>40</td>
+                <td>41</td>
+                <td>42</td>
+                <td>43</td>
+                <td>44</td>
+                <td>45</td>
+                <td>46</td>
+              </tr>
+              <tr>
+                <th scope="row">英国</th>
+                <td>5,5</td>
+                <td>6,5</td>
+                <td>7,5</td>
+                <td>8,5</td>
+                <td>9,5</td>
+                <td>10,5</td>
+                <td>11,5</td>
+                <td>12,5</td>
+              </tr>
+              <tr>
+                <th scope="row">我ら</th>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="bottom-table background">
+        <div class="container py-4">
+          <h3 class="mb-5">レディーススニーカー</h3>
+          <table class="table table-borderless mb-4">
+            <thead>
+              <tr>
+                <th scope="col">CM</th>
+                <th scope="col">23,5</th>
+                <th scope="col">24,4</th>
+                <th scope="col">25,4</th>
+                <th scope="col">25</th>
+                <th scope="col">27日</th>
+                <th scope="col">27,9</th>
+                <th scope="col">28,6</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">EU</th>
+                <td>35</td>
+                <td>36</td>
+                <td>37</td>
+                <td>38</td>
+                <td>39</td>
+                <td>40</td>
+                <td>41</td>
+              </tr>
+              <tr>
+                <th scope="row">英国</th>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <th scope="row">我ら</th>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="text-muted text-center">HTMLレスポンシブテーマの履物は、比類のない散歩の快適さと最高レベルの高品質によって差別化されています。マスタ―シューズメーカーによるハンドメイドのこれらのユニークなフットウェアは、優れたフィット感を備えた現代的なレイアウトを取り入れています！</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5">
+      <div class="text-container text-center">
+        <h2>まだ疑問がありますか？是非、私たちのチームがあなたを助けます</h2>
+        <p class="text-muted">HTMLレスポンシブテンプレートの無料ダウンロード</p>
+      </div>
+      <div class="card-container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="card p-3 border-0">
+            <div class="img-card">
+              <img class="w-100" src="../bootstrap03/images/square_➀.jpg">
+            </div>
+            <div class="text-card">
+              <h3><small>アマンダ・アダムス</small></h3>
+              <p class="text-info">営業部長</p>
+              <p>HTMLレスポンシブテーマは世界中で理解されており、非公式の靴だけでなく、都市の最も有利な便利なブランド名の1つでもあります。</p>
+            </div>
+          </div>
+          <div class="card p-3 border-0">
+            <div class="img-card">
+              <img class="w-100" src="../bootstrap03/images/square_②.jpg">
+            </div>
+            <div class="text-card">
+              <h3><small>ジョンスミス</small></h3>
+              <p class="text-info">サービスアドバイザー</p>
+              <p>HTMLレスポンシブテーマミッドソールは、あらゆるスタイルのフットウェアとサンダルにあり、歩くことから生じる衝撃を軽減します。これは背中、脊椎、そして関節も保護します。</p>
+            </div>
+          </div>
+          <div class="card p-3 border-0">
+            <div class="img-card">
+              <img class="w-100" src="../bootstrap03/images/square_③.jpg">
+            </div>
+            <div class="text-card">
+              <h3><small>アマンダ・アダムス</small></h3>
+              <p class="text-info">購買担当</p>
+              <p>HTML Responsive Themeで使用されているすべての革は化学薬品を使用しておらず、健康に危険な材料で構成されていません。</p>
+            </div>
+          </div>
+          <div class="card p-3 border-0">
+            <div class="img-card">
+              <img class="w-100" src="../bootstrap03/images/square_④.jpg">
+            </div>
+            <div class="text-card">
+              <h3><small>ジョンスミス</small></h3>
+              <p class="text-info">ビジネスアナリスト</p>
+              <p>この戦略は、最高の適合性と比類のない品質に加えて、特別なレスポンシブHTMLテーマの利便性を保証します。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container mb-5">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="left-container p-2">
+          <div class="text-container mb-4">
+            <p>私たちと連絡を取り、私たちはあなたを助けることができます</p>
+            <h2>今すぐお越しになるか、質問してください</h2>
+          </div>
+          <div class="form-container">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-6">
+                  <input type="text" class="form-control px-0 rounded-0" placeholder="あなたの名前*">
+                </div>
+                <div class="form-group col-6">
+                  <input type="text" class="form-control px-0 rounded-0" placeholder="あなたの名字">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-6">
+                  <input type="email" class="form-control px-0 rounded-0" placeholder="Eメール*">
+                </div>
+                <div class="form-group col-6">
+                  <input type="text" class="form-control px-0 rounded-0" placeholder="電話">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-12">
+                  <label for="inputmessage">メッセージ</label>
+                  <input type="text" class="form-control px-0 rounded-0" id="inputmessage">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-info rounded-pill">メッセージを送る</button>
+            </form>
+          </div>
+        </div>
+        <div class="right-container p-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6264906308347!2d-73.98729598459393!3d40.74824357932801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b30eac9f%3A0xaca05ca48ab5ac2c!2zMzUwIDV0aCBBdmUsIE5ldyBZb3JrLCBOWSAxMDExOCDjgqLjg6Hjg6rjgqvlkIjooYblm70!5e0!3m2!1sja!2sjp!4v1599611552276!5m2!1sja!2sjp" class="w-100 h-100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="bg-info">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-4">
+            <h2 class="text-white mb-5">スニーカーストア</h2>
+            <form>
+              <input type="email" class="form-control bg-info text-white rounded-0 mb-3" placeholder="メールアドレスを入力*">
+              <button type="submit" class="btn btn-light rounded-pill">申し込む</button>
+            </form>
+          </div>
+          <div class="col-4 text-right">
+            <address class="text-white mb-4">
+              <p>モビライズ</p>
+              <p class="mb-1">電話：+1 (0) 000 0000 001</p>
+              <p class="mb-1">メール：yourmail@example.com</p>
+              <p class="mb-1">住所：1234 Street Name City、AA 99999</p>
+            </address>
+            <ul class="d-flex justify-content-end">
+              <li class="mx-1">
+                <a class="btn btn-outline-light rounded-circle d-flex justify-content-center" href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="mx-1">
+                <a class="btn btn-outline-light rounded-circle d-flex" href=""><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="mx-1">
+                <a class="btn btn-outline-light rounded-circle d-flex justify-content-center" href=""><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="mx-1">
+                <a class="btn btn-outline-light rounded-circle d-flex justify-content-center" href=""><i class="fab fa-google-plus-g"></i></a>
+              </li>
+              <li class="mx-1">
+                <a class="btn btn-outline-light rounded-circle d-flex justify-content-center" href=""><i class="fab fa-behance"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-4 text-white text-right">
+            <a class="text-white" href="">HTMLレスポンシブテンプレートの無料ダウンロード</a>
+            <p class="mt-4">私たちに関しては<br>
+            サービス<br>
+            連絡する</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
