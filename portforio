@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap02</title>
+    <link 
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron jumbotron-fluid p-0 d-flex flex-column mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-img">
+              <img src="../bootstrap02/images/Top_image.jpg" width="60px" />
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item active mr-3">
+                  <a class="nav-link" href="#"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item dropdown mr-3">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Demo pages</a
+                  >
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown mr-3">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Blocks</a
+                  >
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown mr-3">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Demo pages</a
+                  >
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item mr-3">
+                  <a class="btn btn-danger rounded-pill" href="">DOWNLOAD</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <div class="container text-center text-white flex-grow-1 d-flex p-4">
+          <div class="text-container align-self-center">
+            <p class="m-0">
+              WANT TO HAVE A GOOD TIME AND TO DRINK SOME COFFEE?
+            </p>
+            <h1 class="mb-4">COME TO OUR CAFE</h1>
+            <p class="mb-4">
+              Our Cafe was created by the owners of Mobirise eCommerce Website Builder to bring endeavor ready clients, locals, and travelers a truly unique coffee experience.
+            </p>
+            <a class="btn btn-danger rounded-pill" href="">Read More</a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="bottom-container">
+            <div class="row w-100 m-0 justify-content-center">
+              <div class="row row-cols-1 row-cols-md-3 w-100">
+                <div class="row-content bg-white text-center p-3 p-md-5">
+                  <div class="text-danger h1 mb-4">
+                    <i class="fas fa-coffee"></i>
+                  </div>
+                  <p>Tasty Coffee</p>
+                  <p class="text-muted">
+                    Most of all, we are committed to giving you the best customer service as well as a comfortable environment to sit with good friends, research study and work.
+                  </p>
+                </div>
+                <div class="row-content bg-white text-center p-3 p-md-5">
+                  <div class="text-danger h1 mb-4">
+                    <i class="far fa-clock"></i>
+                  </div>
+                  <p>Tasty Coffee</p>
+                  <p class="text-muted">
+                    Our preferred, straightforward and also unique method of developing cool coffee.
+                  </p>
+                </div>
+                <div class="row-content bg-white text-center p-3 p-md-5">
+                  <div class="text-danger h1 mb-4">
+                    <i class="fas fa-truck"></i>
+                  </div>
+                  <p>Tasty Coffee</p>
+                  <p class="text-muted">
+                    We are the Cafe with a bold visionto make a distinction in both our neighborhood and also worldwide neighbothoods.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container mb-5">
+        <h2 class="text-center mb-5">You will enjoy our cafe if you love...</h2>
+        <div class="row-container">
+          <div class="row mb-lg-5 m-0 align-items-center">
+            <div class="col-md-6 order-1">
+              <img class="w-100" src="../bootstrap02/images/main-image➀.jpg">
+            </div>
+            <div class="col-md-6 mb-4 order-2">
+              <div class="col-text">
+                <h3 class="text-danger mb-4">Homely atmosphere</h3>
+                <p class="text-muted mb-4">
+                  As a missional Cafe focused on lasting options to poverty, we turn profits into hope/ We do this by creating a product you love, serving you with a smile, as well as offering all of our profits to individuals in need.
+                </p>
+                <a class="text-white btn btn-danger rounded-pill" href=""
+                  >View More</a
+                >
+              </div>
+            </div>
+            <div class="col-md-6 order-md-4 order-3">
+              <img class="w-100" src="../bootstrap02/images/main_image②.jpg">
+            </div>
+            <div class="col-md-6 order-3">
+              <div class="col-text">
+                <h3 class="text-danger mb-4">Excellent service</h3>
+                <p class="text-muted mb-4">
+                  Our preferred, straightforward and also unique method of developing cool coffee at our cafe. The flash-chill procedure enables us to harness each coffee's natural attributes with a hot-water brew, and afterwards lock them in place with an instant decrease in temperature level.
+                </p>
+                <a class="text-white btn btn-danger rounded-pill" href=""
+                  >More Info</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jumbotron dark-background mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="left-container d-flex flex-wrap col-lg-6">
+              <div class="col-md-6 p-3">
+                <p class="display-4 font-weight-bold text-muted">01.</p>
+                <div class="text-white">
+                  <p>
+                    While we do everything in our power to roast and serve the happiest coffee feasible, coffee itself isn't really actually the core of our firm. It's our guests.<br />
+                    <a class="text-danger" href="">Learn More...</a>
+                  </p>
+                </div>
+                <p class="font-weight-bold text-white position">OUR TEAM</p>
+              </div>
+              <div class="col-md-6 p-3">
+                <p class="display-4 font-weight-bold text-muted">02.</p>
+                <div class="text-white">
+                  <p>
+                    We intend to nurture a sense of marvel with your experience and also communication with just what we do.<br />
+                    <a class="text-danger" href="">Learn More...</a>
+                  </p>
+                </div>
+                <p class="font-weight-bold text-white position">OUR COFFEE</p>
+              </div>
+              <div class="col-md-6 p-3">
+                <p class="display-4 font-weight-bold text-muted">03.</p>
+                <div class="text-white">
+                  <p>
+                    Whether you buy a bag of coffee online, go to a the cafe or just occur to live down the street from one, we wish you experience our commitment to surprising hospitality adn joy-rooted excellence.<br />
+                    <a class="text-danger" href="">Learn More...</a>
+                  </p>
+                </div>
+                <p class="font-weight-bold text-white position">
+                  OUR PHILOSOPHY
+                </p>
+              </div>
+              <div class="col-md-6 p-3">
+                <p class="display-4 font-weight-bold text-muted">04.</p>
+                <div class="text-white">
+                  <p>
+                    As a missional eCommerce Website Template Cafe focused on lasting options to poverty, we turn profits into hope. We do this by creating a product you.<br />
+                    <a class="text-danger" href="">Learn More...</a>
+                  </p>
+                </div>
+                <p class="font-weight-bold text-white position">OUR SPEED</p>
+              </div>
+            </div>
+            <div class="right-container col-lg-6">
+              <div class="text-container p-3 text-white">
+                <p>And that's not all...</p>
+                <h2 class="mb-3">4 Reasons to Visit Us</h2>
+                <p class="mb-4">
+                  We are eCommerce Website Template Cafe with a bold vision to make a distinction in both our neighborhood and also worldwide neighborhoods.
+                </p>
+                <a class="text-white btn btn-danger rounded-pill" href=""
+                  >Visit Us</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mb-5">
+        <div class="text-container text-center mb-4">
+          <h2>1. Meet our team</h2>
+          <p>We make the world's best coffee.</p>
+        </div>
+        <div class="px-5">
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="row-content p-4">
+              <div class="img-content">
+                <img class="w-100" src="../bootstrap02/images/square_➀.jpg" />
+              </div>
+              <div class="text-content">
+                <h3 class="font-weight-bold">Amanda Adams</h3>
+                <p>Barista</p>
+                <p>
+                  The coolest coffee maker you've ever found. She knows how to wow her clients with a cup of fresh coffee.
+                </p>
+              </div>
+            </div>
+            <div class="row-content p-4">
+              <div class="img-content">
+                <img class="w-100" src="../bootstrap02/images/square_②.jpg" />
+              </div>
+              <div class="text-content">
+                <h3 class="font-weight-bold">John Smith</h3>
+                <p>Musician</p>
+                <p>
+                  He creates the best mood in the eCommerce Website Template Cafe and makes you happy.
+                </p>
+              </div>
+            </div>
+            <div class="row-content p-4">
+              <div class="img-content">
+                <img class="w-100" src="../bootstrap02/images/square_③.jpg" />
+              </div>
+              <div class="text-content">
+                <h3 class="font-weight-bold">Ashley Cage</h3>
+                <p>Purchasing Officer</p>
+                <p>
+                  She knows exacyly what you want and will offer the coffee for your taste.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center mb-5"
+      >
+        <div class="text-white text-center">
+          <h2>2. We are proud of our coffee</h2>
+          <p>There is nothing to write here, it is just needed to tasted...</p>
+        </div>
+      </div>
+
+      <div class="container mb-5">
+        <h2 class="text-center mb-4">
+          3. Read our blog to understand our philosophy
+        </h2>
+        <div class="card-container">
+          <div class="row row-cols-md-3">
+            <div class="card p-3">
+              <div class="card-img">
+                <img
+                  class="w-100"
+                  src="../bootstrap02/images/main-image➀.jpg"
+                />
+              </div>
+              <div class="card-text text-center p-4">
+                <h3>Excellent coffee</h3>
+                <p>
+                  Thecoffee at eCommerce Website Template for Cafe is quite a deliciousness.
+                </p>
+                <a class="btn btn-danger rounded-pill" href="">Read More</a>
+              </div>
+              <div class="card-img-overlay">
+                <p
+                  class="text-white bg-danger d-inline-block p-2 rounded-pill m-3"
+                >
+                  Customer story
+                </p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <div class="card-img">
+                <img
+                  class="w-100"
+                  src="../bootstrap02/images/background-img.jpg"
+                />
+              </div>
+              <div class="card-text text-center p-4">
+                <h3>Nice staff</h3>
+                <p>
+                  The Cafe treats you with the best services with a smile.
+                </p>
+                <a class="btn btn-danger rounded-pill" href="">Read More</a>
+              </div>
+              <div class="card-img-overlay">
+                <p
+                  class="text-white bg-danger d-inline-block p-2 rounded-pill m-3"
+                >
+                  Outlook
+                </p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <div class="card-img">
+                <img
+                  class="w-100"
+                  src="../bootstrap02/images/main_image②.jpg"
+                />
+              </div>
+              <div class="card-text text-center p-4">
+                <h3>Tasty delecacies</h3>
+                <p>
+                  Featured delecacies cooked and served to excite you paired with a cup of coffee.
+                </p>
+                <a class="btn btn-danger rounded-pill" href="">Read More</a>
+              </div>
+              <div class="card-img-overlay">
+                <p
+                  class="text-white bg-danger d-inline-block p-2 rounded-pill m-3"
+                >
+                  Kitchen stories
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jumbotron jumbotron-fluid blur mb-5">
+        <div class="container">
+          <div class="top-contaienr text-white mb-4">
+            <p>
+              Read the reviews and you will understand what we're talking about
+            </p>
+            <h2>4.Our speed..</h2>
+          </div>
+          <div class="center-container">
+            <div class="row w-100 m-0 justify-content-center">
+              <div class="row row-cols-1 row-cols-md-3 text-white w-100">
+                <div class="row-text px-3">
+                  <p>
+                    The coolest coffee maker you've ever found. She knows how to wow her clients with a cup of fresh coffee.
+                  </p>
+                  <p class="font-weight-bold">- Amanda Adams</p>
+                  <p>Barista</p>
+                </div>
+                <div class="row-text px-3">
+                  <p>
+                    He creates the best mood in the eCommerce Website Template Cafe and makes you happy.
+                  </p>
+                  <p class="font-weight-bold">- John Smith</p>
+                  <p>Musician</p>
+                </div>
+                <div class="row-text px-3">
+                  <p>
+                    She knows exacyly what you want and will offer the coffee for your taste.
+                  </p>
+                  <p class="font-weight-bold">- Ashley Cage</p>
+                  <p>Purchasing Officer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center mb-5">
+        <p>Welcome to Our Coffeehouse</p>
+        <h2 class="mb-4">Do you like it? Share this page!</h2>
+        <div class="icon-container">
+          <a class="btn btn-primary rounded-circle" href="">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a class="btn btn-info rounded-circle" href="">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a class="btn btn-danger rounded-circle" href="">
+            <i class="fab fa-google-plus-g"></i>
+          </a>
+          <a class="btn btn-dark rounded-circle" href="">
+            <i class="fab fa-vk"></i>
+          </a>
+          <a class="btn btn-warning rounded-circle" href="">
+            <i class="fab fa-odnoklassniki text-white"></i>
+          </a>
+          <a class="btn btn-danger rounded-circle" href="">
+            <i class="fab fa-pinterest-p"></i>
+          </a>
+          <a class="btn btn-primary rounded-circle" href="">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container mb-5">
+        <div class="row w-100 m-0 justify-content-center">
+          <div class="row row-cols-1 row-cols-md-3 w-100">
+            <div class="left-container text-center">
+              <div class="img-container mb-3">
+                <img class="w-25" src="../bootstrap02/images/Top_image.jpg" />
+              </div>
+              <div class="address mb-4">
+                <p class="font-weight-bold mb-3">Address</p>
+                <p>1234 Street Name</p>
+                <p>City, AA 99999</p>
+              </div>
+              <div class="info">
+                <p class="font-weight-bold mb-3">Contacts</p>
+                <p>Email: support@mobirise.com</p>
+                <p>Phone: +1(0) 000 0000 001</p>
+                <p>Fax: +1(0) 000 0000 002</p>
+              </div>
+            </div>
+            <div class="center-container">
+              <p class="mb-4 text-center">OPENING HOURS</p>
+              <div class="row w-100 m-0 justify-content-center">
+                <div class="row row-cols-2 w-100">
+                  <div class="day-container">
+                    <ul class="text-right font-weight-bold pr-3">
+                      <li>Monday</li>
+                      <li>Tuesday</li>
+                      <li>Wednesday</li>
+                      <li>Thursday</li>
+                      <li>Friday</li>
+                      <li>Saturday</li>
+                    </ul>
+                  </div>
+                  <div class="time-container">
+                    <ul class="text-left pl-3">
+                      <li>11:00 - 18:00</li>
+                      <li>11:00 - 18:00</li>
+                      <li>11:00 - 18:00</li>
+                      <li>11:00 - 18:00</li>
+                      <li>11:00 - 18:00</li>
+                      <li>11:00 - 18:00</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right-container text-center p-3">
+              <p class="mb-3">GET IN TOUCH</p>
+              <div class="form-container text-left mb-4">
+                <p class="py-2 border-bottom border-dark">Name</p>
+                <p class="py-2 border-bottom border-dark">Phone</p>
+                <p class="pt-3 pb-4 border-bottom border-dark">Message</p>
+              </div>
+              <a class="btn btn-danger rounded-pill" href="">Send</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
