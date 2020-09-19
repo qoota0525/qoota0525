@@ -1,0 +1,79 @@
+.jumbotron.flex-column {
+  background-image: url(../bootstrap02/images/Top_image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.col-12 > img {
+  object-fit: cover;
+}
+
+.dark-background {
+  background-image: url(../bootstrap02/images/dark-background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.dark-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.font-weight-bold.display-4 {
+  position: relative;
+}
+.position {
+  position: absolute;
+  top: 2.5em;
+  left: 1em;
+}
+
+.jumbotron.align-items-center {
+  background-image: url(../bootstrap02/images/background-img.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.card {
+  border-style: none;
+}
+
+.blur {
+  background-image: url(../bootstrap02/images/dark-background.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.blur::before {
+  background: inherit;
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  filter: blur(5px);
+  z-index: -1;
+}
+
+.icon-container > a {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0 0.5rem;
+}
+
+footer p {
+  margin: 0;
+}
+footer ul {
+  list-style: none;
+}
